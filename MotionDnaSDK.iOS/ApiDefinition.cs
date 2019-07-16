@@ -82,19 +82,19 @@ namespace MotionDnaApi
     //{
     //}
 
-    [Static]
+    //[Static]
     //[Verify(ConstantsInterfaceAssociation)]
-    partial interface Constants
-    {
-        // extern double MotionDnaApplicationVersionNumber;
-        [Field("MotionDnaApplicationVersionNumber", "__Internal")]
-        double MotionDnaApplicationVersionNumber { get; }
+    //partial interface Constants
+    //{
+    //    // extern double MotionDnaApplicationVersionNumber;
+    //    [Field("MotionDnaApplicationVersionNumber", "__Internal")]
+    //    double MotionDnaApplicationVersionNumber { get; }
 
-        //Error BI1014: btouch: Unsupported type for Fields: global::System.Byte[] (BI1014) -> IntPtr
-        // extern const unsigned char [] MotionDnaApplicationVersionString;
-        [Field("MotionDnaApplicationVersionString", "__Internal")]
-        IntPtr MotionDnaApplicationVersionString { get; }
-    }
+    //    //Error BI1014: btouch: Unsupported type for Fields: global::System.Byte[] (BI1014) -> IntPtr
+    //    // extern const unsigned char [] MotionDnaApplicationVersionString;
+    //    [Field("MotionDnaApplicationVersionString", "__Internal")]
+    //    IntPtr MotionDnaApplicationVersionString { get; }
+    //}
 
     // Error CS0426: The type name 'MotionDnaLocationManagerDataSource' does not exist in the type 'MotionDnaSDK'
     // @protocol MotionDnaLocationManagerDelegate <NSObject>
